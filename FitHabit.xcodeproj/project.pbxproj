@@ -18,6 +18,8 @@
 		FAD609751B30421000E5992B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD609731B30421000E5992B /* LaunchScreen.storyboard */; };
 		FAD609801B30421100E5992B /* FitHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6097F1B30421100E5992B /* FitHabitTests.swift */; };
 		FAD6098B1B30421100E5992B /* FitHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6098A1B30421100E5992B /* FitHabitUITests.swift */; };
+		FAE5A33E1B4D3EF5004048CB /* FitnessSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A33D1B4D3EF5004048CB /* FitnessSummaryViewController.swift */; };
+		FAE5A3411B4D3FCC004048CB /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A3401B4D3FCC004048CB /* EventManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		FAE13FD81B48631500D8FC03 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Pods/Quick.framework"; sourceTree = "<group>"; };
 		FAE13FDA1B48632B00D8FC03 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Pods/Quick.framework"; sourceTree = "<group>"; };
 		FAE13FDC1B48632F00D8FC03 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Pods/Nimble.framework"; sourceTree = "<group>"; };
+		FAE5A33D1B4D3EF5004048CB /* FitnessSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessSummaryViewController.swift; sourceTree = "<group>"; };
+		FAE5A3401B4D3FCC004048CB /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			children = (
 				FAD6096A1B30421000E5992B /* AppDelegate.swift */,
 				FAD6096E1B30421000E5992B /* Main.storyboard */,
+				FAE5A33A1B4D3D81004048CB /* ViewControllers */,
+				FAE5A33F1B4D3F99004048CB /* Utilities */,
 				FAD609711B30421000E5992B /* Assets.xcassets */,
 				FAD609731B30421000E5992B /* LaunchScreen.storyboard */,
 				FAD609761B30421000E5992B /* Info.plist */,
@@ -164,6 +170,22 @@
 				FAD6098C1B30421100E5992B /* Info.plist */,
 			);
 			path = FitHabitUITests;
+			sourceTree = "<group>";
+		};
+		FAE5A33A1B4D3D81004048CB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5A33D1B4D3EF5004048CB /* FitnessSummaryViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAE5A33F1B4D3F99004048CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5A3401B4D3FCC004048CB /* EventManager.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +450,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE5A3411B4D3FCC004048CB /* EventManager.swift in Sources */,
+				FAE5A33E1B4D3EF5004048CB /* FitnessSummaryViewController.swift in Sources */,
 				FAD6096B1B30421000E5992B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

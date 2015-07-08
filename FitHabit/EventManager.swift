@@ -6,8 +6,16 @@
 //  Copyright © 2015 NatashaTheRobot. All rights reserved.
 //
 
-import UIKit
+import EventKit
 
-class EventManager: NSObject {
+class EventManager {
 
+    let eventStore = EKEventStore()
+    var eventsAccessGranted: Bool = {
+        if case .Authorized = EKEventStore.authorizationStatusForEntityType(.Event) {
+            return true
+        }
+        return false
+        }()
+    
 }
