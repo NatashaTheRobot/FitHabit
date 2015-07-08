@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2AE2C1E75103A0A0A8744C5C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363DFB19E80E58CC608F8772 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3E9DA95CFB4BBFFD5A5BDC4A /* Pods_FitHabitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F91123A9E241FE9FDB4213B /* Pods_FitHabitTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		460C24B3ECBF12FF0ABF1E03 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363DFB19E80E58CC608F8772 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BB2DC17F951BB7A6D3D8CE7D /* Pods_FitHabitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFEA7C8A686D1E9F7C29909 /* Pods_FitHabitUITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BC6E83462205B1E786381ADD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363DFB19E80E58CC608F8772 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FAD6096B1B30421000E5992B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6096A1B30421000E5992B /* AppDelegate.swift */; };
-		FAD6096D1B30421000E5992B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6096C1B30421000E5992B /* ViewController.swift */; };
 		FAD609701B30421000E5992B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6096E1B30421000E5992B /* Main.storyboard */; };
 		FAD609721B30421000E5992B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD609711B30421000E5992B /* Assets.xcassets */; };
 		FAD609751B30421000E5992B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD609731B30421000E5992B /* LaunchScreen.storyboard */; };
@@ -38,11 +39,12 @@
 
 /* Begin PBXFileReference section */
 		363DFB19E80E58CC608F8772 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F91123A9E241FE9FDB4213B /* Pods_FitHabitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHabitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFEA7C8A686D1E9F7C29909 /* Pods_FitHabitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHabitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7A0647C914B89FAD69F596 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B38C9A929029A2E20DD66D1F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FAD609671B30421000E5992B /* FitHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD6096A1B30421000E5992B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAD6096C1B30421000E5992B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAD6096F1B30421000E5992B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD609711B30421000E5992B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD609741B30421000E5992B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		FAD609861B30421100E5992B /* FitHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD6098A1B30421100E5992B /* FitHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHabitUITests.swift; sourceTree = "<group>"; };
 		FAD6098C1B30421100E5992B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE13FD61B48630F00D8FC03 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Pods/Nimble.framework"; sourceTree = "<group>"; };
+		FAE13FD81B48631500D8FC03 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Pods/Quick.framework"; sourceTree = "<group>"; };
+		FAE13FDA1B48632B00D8FC03 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Pods/Quick.framework"; sourceTree = "<group>"; };
+		FAE13FDC1B48632F00D8FC03 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Pods/Nimble.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6E83462205B1E786381ADD /* Pods.framework in Frameworks */,
+				3E9DA95CFB4BBFFD5A5BDC4A /* Pods_FitHabitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE2C1E75103A0A0A8744C5C /* Pods.framework in Frameworks */,
+				BB2DC17F951BB7A6D3D8CE7D /* Pods_FitHabitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +103,13 @@
 		4EA3167691D8E6EC61BFF1D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAE13FDC1B48632F00D8FC03 /* Nimble.framework */,
+				FAE13FDA1B48632B00D8FC03 /* Quick.framework */,
+				FAE13FD81B48631500D8FC03 /* Quick.framework */,
+				FAE13FD61B48630F00D8FC03 /* Nimble.framework */,
 				363DFB19E80E58CC608F8772 /* Pods.framework */,
+				3F91123A9E241FE9FDB4213B /* Pods_FitHabitTests.framework */,
+				6FFEA7C8A686D1E9F7C29909 /* Pods_FitHabitUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				FAD6096A1B30421000E5992B /* AppDelegate.swift */,
-				FAD6096C1B30421000E5992B /* ViewController.swift */,
 				FAD6096E1B30421000E5992B /* Main.storyboard */,
 				FAD609711B30421000E5992B /* Assets.xcassets */,
 				FAD609731B30421000E5992B /* LaunchScreen.storyboard */,
@@ -300,7 +313,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitHabitUITests/Pods-FitHabitUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3203776A9D77B58DF959222E /* Embed Pods Frameworks */ = {
@@ -330,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitHabitTests/Pods-FitHabitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6D4AB124202A96F8E9E3F610 /* Copy Pods Resources */ = {
@@ -360,7 +373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitHabitTests/Pods-FitHabitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D325F6A03846E6B900DFAA82 /* Check Pods Manifest.lock */ = {
@@ -415,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD6096D1B30421000E5992B /* ViewController.swift in Sources */,
 				FAD6096B1B30421000E5992B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +571,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FitHabit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.FitHabit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -571,6 +591,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FitHabit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.FitHabit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
